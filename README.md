@@ -4,7 +4,7 @@
 * 2 - [DSA Sheet by Striver](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 * 3 - [DAS Sheet by Fraz](https://www.codingninjas.com/codestudio/problem-lists/mohammad-fraz-dsa-sheet-problems)
 
-## Day 1 - Array 
+## Day 1 - Array ([PDF](/PDF_Notes/Day-1.pdf))
 
 | Problem Name  | Platfrom | Practice | Solution |
 | :------------ |:---------------:| :---------------:| -----:|
