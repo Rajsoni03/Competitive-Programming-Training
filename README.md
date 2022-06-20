@@ -7,7 +7,7 @@
 ## Day 1 - Array ([PDF](/PDF_Notes/Day-1.pdf))
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
-| :--: | :------ ----- |:--------:| :-------:| --------:|
+| :--: | :------------ |:--------:| :-------:| --------:|
 |  1   | Reverse the array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/reverse-an-array/0) | [solution](Solutions/code-1.cpp) |
 |  2   | Reverse String | Leetcode | [Link](https://leetcode.com/problems/reverse-string/) | [solution](Solutions/code-2.cpp) |
 |  3   | Find the maximum and minimum element in an array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1) | [solution](Solutions/code-3.cpp) |
