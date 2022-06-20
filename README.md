@@ -8,7 +8,7 @@
 
 | Problem Name  | Platfrom | Practice | Solution |
 | :------------ |:---------------:| :---------------:| -----:|
-| Reverse the array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1) | [solution](Solutions/code1.cpp) |
+| Reverse the array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/reverse-an-array/0) | [solution](Solutions/code1.cpp) |
 | Reverse String | Leetcode | [Link](https://leetcode.com/problems/reverse-string/) | [solution](Solutions/code2.cpp) |
 | Find the maximum and minimum element in an array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1) | [solution](Solutions/code3.cpp) |
 | Complete Sum | CodeStudio | [Link](https://www.codingninjas.com/codestudio/problems/complete-sum_3161880?topList=mohammad-fraz-dsa-sheet-problems) | [solution](Solutions/code4.cpp) |
