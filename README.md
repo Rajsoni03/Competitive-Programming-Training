@@ -1,7 +1,7 @@
 # Competitive-Programming-Training
 
 * 1 - [DSA Sheet by Love Babbar](https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/)
-* 2 - [DSA Sheet by Striver]{https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/}
+* 2 - [DSA Sheet by Striver](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 * 3 - [DAS Sheet by Fraz](https://www.codingninjas.com/codestudio/problem-lists/mohammad-fraz-dsa-sheet-problems)
 
 ## Array
