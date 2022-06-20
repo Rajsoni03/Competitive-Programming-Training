@@ -6,6 +6,20 @@
 
 ## Day 1 - Array ([PDF](/PDF_Notes/Day-1.pdf))
 
+- Asymptotic Notation
+- Big O
+- Time Complexity
+- Space Complexity 
+- Basic Notations
+	- <b>O(1)</b> - Constant
+	- <b>O(log N)</b> - Logarithmic
+	- <b>O(N)</b> - Linear
+	- <b>O(N log N)</b> - Linearithmic
+	- <b>O(N<sup>2</sup>)</b> - Quadratic
+	- <b>O(N<sup>3</sup>)</b> - Cubic
+	- <b>O(2<sup>N</sup>)</b> - Exponential 
+	- <b>O(N<sup>N</sup>)</b> - Exponential
+
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
 |  1   | Reverse the array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/reverse-an-array/0) | [solution](Solutions/code-1.cpp) |
