@@ -63,7 +63,7 @@
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
-|  5   | Reverse String II | Leetcode | [Link](https://leetcode.com/problems/reverse-string-ii/) | [solution](Solutions/sol_5.cpp) |
+|  5   | Final Value of Variable After Performing Operations | Leetcode | [Link](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | [solution](Solutions/sol_5.cpp) |
  
 
 
