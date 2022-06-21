@@ -63,7 +63,10 @@
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
-|  5   | Final Value of Variable After Performing Operations | Leetcode | [Link](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | [solution](Solutions/sol_5.cpp) |
+|  5   | Final Value of Variable After Performing Operations | Leetcode | [Link](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | [solution](Solutions/sol_5.md) |
+|  6   | Maximum Number of Words Found in Sentences | Leetcode | [Link](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | [solution](Solutions/sol_6.md) |
+|  7   | Shuffle String | Leetcode | [Link](https://leetcode.com/problems/shuffle-string/) | [solution](Solutions/sol_7.md) |
+|  8   | Check If It Is a Straight Line | Leetcode | [Link](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [solution](Solutions/sol_8.md) |
  
 
 

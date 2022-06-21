@@ -1,4 +1,4 @@
-# Complete Sum - [Practice - CodeStudio](https://www.codingninjas.com/codestudio/problems/complete-sum_3161880)
+# Final Value of Variable After Performing Operations - [Practice - LeetCode](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)
 
 There is a programming language with only four operations and one variable X:<br><br>
 
