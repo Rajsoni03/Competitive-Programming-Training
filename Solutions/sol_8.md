@@ -22,23 +22,29 @@ Output:
 false
 ```
 
-## Solution 1 - Takes N Space 
+## Solution 1 
 
 Time - O(N)<br>
 Space - O(1)
 
 ```cpp
-
-
-
-```
-
-## Solution 2 - Constant Space (Cycle Sort)
-
-Time - O(N) Average / O(N<sup>2</sup>) at worse case  <br>
-Space - O(1)
-
-```cpp
-
-
+class Solution {
+public:
+    bool checkStraightLine(vector<vector<int>>& coordinates) {
+        int n = coordinates.size();
+        
+        int dx = coordinates[1][0] - coordinates[0][0];
+        int dy = coordinates[1][1] - coordinates[0][1];
+        
+        for (int i = 2; i < n; i++){
+            int dxi = coordinates[i][0] - coordinates[0][0];
+            int dyi = coordinates[i][1] - coordinates[0][1];
+            
+            if (dy*dxi != dyi*dx){
+                return false;
+            }               
+        }
+        return true;
+    }
+};
 ```
