@@ -2,9 +2,12 @@
 
 `Prerequisite` - Basic knowledge of C++ ([C++ Training Codes](https://github.com/Rajsoni03/CPlusPlus-Training)) 
 
-* 1 - [DSA Sheet by Love Babbar](https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/)
-* 2 - [DSA Sheet by Striver](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
-* 3 - [DAS Sheet by Fraz](https://www.codingninjas.com/codestudio/problem-lists/mohammad-fraz-dsa-sheet-problems)
+`CPP Docs` - [Link](https://www.cplusplus.com/)
+
+- DSA Sheets
+	- [Love Babbar](https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/)
+	- [Striver](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
+	- [Fraz](https://www.codingninjas.com/codestudio/problem-lists/mohammad-fraz-dsa-sheet-problems)
 
 <hr>
 
