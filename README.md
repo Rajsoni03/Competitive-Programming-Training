@@ -35,7 +35,7 @@
  
 
 
-## Day 2 - Array ([PDF](/PDF_Notes/Day-2.pdf))
+## Day 2 - STL ([PDF](/PDF_Notes/Day-2.pdf))
 
 - Standard Template Library (STL)
 	- Container
