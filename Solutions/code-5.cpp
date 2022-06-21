@@ -2,8 +2,10 @@
 #include <string>
 using namespace std;
 
+
+
 int calcNumsOfSum(int sum, int vars, int index){
-    
+    fact()
 }
 
 

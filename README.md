@@ -1,8 +1,12 @@
 # Competitive-Programming-Training
 
+`Prerequisite` - Basic knowledge of C++ ([C++ Training Codes](https://github.com/Rajsoni03/CPlusPlus-Training)) 
+
 * 1 - [DSA Sheet by Love Babbar](https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/)
 * 2 - [DSA Sheet by Striver](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 * 3 - [DAS Sheet by Fraz](https://www.codingninjas.com/codestudio/problem-lists/mohammad-fraz-dsa-sheet-problems)
+
+<hr>
 
 ## Day 1 - Array ([PDF](/PDF_Notes/Day-1.pdf))
 
@@ -19,6 +23,43 @@
 	- <b>O(N<sup>3</sup>)</b> - Cubic
 	- <b>O(2<sup>N</sup>)</b> - Exponential 
 	- <b>O(N<sup>N</sup>)</b> - Exponential
+- Basics of Array
+- Reverse the Array
+
+|  #   | Problem Name  | Platfrom | Practice | Solution |
+| :--: | :------------ |:--------:| :-------:| --------:|
+|  1   | Reverse the array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/reverse-an-array/0) | [solution](Solutions/sol_1.md) |
+|  2   | Reverse String | Leetcode | [Link](https://leetcode.com/problems/reverse-string/) | [solution](Solutions/sol_2.md) |
+|  3   | Find the maximum and minimum element in an array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1) | [solution](Solutions/sol_3.md) |
+|  4   | Complete Sum | CodeStudio | [Link](https://www.codingninjas.com/codestudio/problems/complete-sum_3161880) | [solution](Solutions/sol_4.md) |
+ 
+
+
+## Day 2 - Array ([PDF](/PDF_Notes/Day-2.pdf))
+
+- Standard Template Library (STL)
+	- Container
+		- `array`
+		- `vector`
+		- `list`
+		- `stack`
+		- `queue`
+		- `set`
+		- `map`
+	- Iterator
+		- `begin()`
+		- `end()`
+		- `rbegin()`
+		- `rend()`
+	- Algorithm
+		- `swap()`
+		- `min()` & `max()`
+		- `min_element()` & `max_element()`
+		- `minmax()` 
+		- `sort()`
+		- `find()`
+		- `search()`
+- Implement template array class 
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
@@ -27,6 +68,16 @@
 |  3   | Find the maximum and minimum element in an array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1) | [solution](Solutions/code-3.cpp) |
 |  4   | Complete Sum | CodeStudio | [Link](https://www.codingninjas.com/codestudio/problems/complete-sum_3161880) | [solution](Solutions/code-4.cpp) |
  
+
+
+
+
+
+
+
+
+
+
 <!-- 
 
 ## Bit Manipulation
