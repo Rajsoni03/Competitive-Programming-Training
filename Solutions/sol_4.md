@@ -32,8 +32,8 @@ min = 1, max = 56789]
 
 ## Solution 1 - Quadratic Time
 
-Time - O(N)<br>
-Space - O(N<sup>2</sup>)
+Time - O(N<sup>2</sup>)<br>
+Space - O(N)
 
 ```cpp
 vector<int> completeSum(vector<int> &a, int n) {
