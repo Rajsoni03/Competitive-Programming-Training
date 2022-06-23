@@ -34,21 +34,25 @@ The 2nd missing positive integer is 6.
 
 ## Solution 1  
 
-Time - O(_)<br>
-Space - O(_)
+Time - O(N)<br>
+Space - O(1)
 
 ```cpp
-
-
-
-```
-
-## Solution 2 
-
-Time - O(_)<br>
-Space - O(_)
-
-```cpp
-
-
+class Solution {
+public:
+    int findKthPositive(vector<int>& arr, int k) {
+        int n = arr.size();        
+        int i = 0;
+        int j = 1;
+        while (k){
+            if (i < n && arr[i] == j)
+                i++;
+            else 
+                k--;
+            j++;
+        }
+        
+        return j - 1;
+    }
+};
 ```
