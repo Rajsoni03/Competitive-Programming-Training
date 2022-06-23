@@ -108,6 +108,8 @@
 
 ## Day 4 - Array and String 
 
+|  #   | Problem Name  | Platfrom | Practice | Solution |
+| :--: | :------------ |:--------:| :-------:| --------:|
 |  13   | Move all negative elements to end | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1) | [solution](Solutions/sol_13.md) |
 |  14   | Count Items Matching a Rule | LeetCode | [Link](https://leetcode.com/problems/count-items-matching-a-rule/) | [solution](Solutions/sol_14.md) |
 |  15   | Kth Missing Positive Number | LeetCode | [Link](https://leetcode.com/problems/kth-missing-positive-number/) | [solution](Solutions/sol_15.md) |
