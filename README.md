@@ -106,13 +106,14 @@
 |  12   | Palindromic Array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/palindromic-array-1587115620/1) | [solution](Solutions/sol_12.md) |
 
 
-<!-- 
-## Day 4 - STL ([PDF](/PDF_Notes/Day-4.pdf))
+## Day 4 - Array and String 
 
 |  13   | Move all negative elements to end | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1) | [solution](Solutions/sol_13.md) |
 |  14   | Count Items Matching a Rule | LeetCode | [Link](https://leetcode.com/problems/count-items-matching-a-rule/) | [solution](Solutions/sol_14.md) |
-|  15   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_15.md) |
-|  16   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_16.md) |
+|  15   | Kth Missing Positive Number | LeetCode | [Link](https://leetcode.com/problems/kth-missing-positive-number/) | [solution](Solutions/sol_15.md) |
+|  16   | Plus One | LeetCode | [Link](https://leetcode.com/problems/plus-one/) | [solution](Solutions/sol_16.md) |
+
+<!-- 
 |  17   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_17.md) |
 |  18   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_18.md) |
 |  19   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_19.md) |
@@ -131,7 +132,12 @@
 
  -->
 
+<!-- 
+MAP
 
+- https://leetcode.com/problems/valid-anagram/
+
+ -->
 
 
 
