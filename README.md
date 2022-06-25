@@ -101,19 +101,32 @@
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
 |  9   | Value equal to index value | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1) | [solution](Solutions/sol_9.md) |
-|  10   | Sort an array of 0s, 1s and 2s | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1#) | [solution](Solutions/sol_10.md) |
-|  11   | Cyclically rotate an array by one | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1/) | [solution](Solutions/sol_11.md) |
-|  12   | Palindromic Array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/palindromic-array-1587115620/1) | [solution](Solutions/sol_12.md) |
+|  10  | Sort an array of 0s, 1s and 2s | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1#) | [solution](Solutions/sol_10.md) |
+|  11  | Cyclically rotate an array by one | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1/) | [solution](Solutions/sol_11.md) |
+|  12  | Palindromic Array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/palindromic-array-1587115620/1) | [solution](Solutions/sol_12.md) |
 
 
 ## Day 4 - Array and String 
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
-|  13   | Move all negative elements to end | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1) | [solution](Solutions/sol_13.md) |
+|  13  | Move all negative elements to end | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1) | [solution](Solutions/sol_13.md) |
 |  14   | Count Items Matching a Rule | LeetCode | [Link](https://leetcode.com/problems/count-items-matching-a-rule/) | [solution](Solutions/sol_14.md) |
 |  15   | Kth Missing Positive Number | LeetCode | [Link](https://leetcode.com/problems/kth-missing-positive-number/) | [solution](Solutions/sol_15.md) |
 |  16   | Plus One | LeetCode | [Link](https://leetcode.com/problems/plus-one/) | [solution](Solutions/sol_16.md) |
+
+
+## Day 5 - Array and String 
+
+|  #   | Problem Name  | Platfrom | Practice | Solution |
+| :--: | :------------ |:--------:| :-------:| --------:|
+|  17   | Number of Good Pairs | LeetCode | [Link](https://leetcode.com/problems/number-of-good-pairs/) | [solution](Solutions/sol_17.md) |
+|  18   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_18.md) |
+|  19   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_19.md) |
+|  20   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
+
+
+
 
 <!-- 
 |  17   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_17.md) |
@@ -124,7 +137,20 @@
  -->
 
 
+<!-- 
+## Binary Search 
 
+|  1  | First and last occurrences of x | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1/) | [solution](Solutions/sol_.md) |
+|  2  | Number of occurrence | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1/) | [solution](Solutions/sol_.md) |
+
+|  20   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
+|  20   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
+|  20   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
+|  20   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
+|  20   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
+
+
+ -->
 <!-- 
 ## Stack 
 
