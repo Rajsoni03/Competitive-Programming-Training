@@ -12,3 +12,4 @@ int main(){
 	cout << func() << endl;
 	return 0;
 }
+// output is :- 10
