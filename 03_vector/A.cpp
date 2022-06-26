@@ -1,3 +1,5 @@
+// Vector declaration 
+
 #include <iostream>
 #include <vector>
 using namespace std;

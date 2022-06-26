@@ -1,6 +1,5 @@
 // STL
-// max and max_element function
-
+// max() and max_element() function
 
 #include <iostream>
 #include <algorithm>

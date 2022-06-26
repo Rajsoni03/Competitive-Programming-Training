@@ -31,10 +31,10 @@
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
-|  1   | Reverse the array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/reverse-an-array/0) | [solution](Solutions/sol_1.md) |
-|  2   | Reverse String | Leetcode | [Link](https://leetcode.com/problems/reverse-string/) | [solution](Solutions/sol_2.md) |
-|  3   | Find the maximum and minimum element in an array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1) | [solution](Solutions/sol_3.md) |
-|  4   | Complete Sum | CodeStudio | [Link](https://www.codingninjas.com/codestudio/problems/complete-sum_3161880) | [solution](Solutions/sol_4.md) |
+|  1   | Reverse the array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/reverse-an-array/0) | [solution](Solutions/sol_001.md) |
+|  2   | Reverse String | Leetcode | [Link](https://leetcode.com/problems/reverse-string/) | [solution](Solutions/sol_002.md) |
+|  3   | Find the maximum and minimum element in an array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1) | [solution](Solutions/sol_003.md) |
+|  4   | Complete Sum | CodeStudio | [Link](https://www.codingninjas.com/codestudio/problems/complete-sum_3161880) | [solution](Solutions/sol_004.md) |
  
 
 
@@ -66,11 +66,10 @@
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
-|  5   | Final Value of Variable After Performing Operations | Leetcode | [Link](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | [solution](Solutions/sol_5.md) |
-|  6   | Maximum Number of Words Found in Sentences | Leetcode | [Link](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | [solution](Solutions/sol_6.md) |
-|  7   | Shuffle String | Leetcode | [Link](https://leetcode.com/problems/shuffle-string/) | [solution](Solutions/sol_7.md) |
-|  8   | Check If It Is a Straight Line | Leetcode | [Link](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [solution](Solutions/sol_8.md) |
-
+|  5   | Final Value of Variable After Performing Operations | Leetcode | [Link](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | [solution](Solutions/sol_005.md) |
+|  6   | Maximum Number of Words Found in Sentences | Leetcode | [Link](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | [solution](Solutions/sol_006.md) |
+|  7   | Shuffle String | Leetcode | [Link](https://leetcode.com/problems/shuffle-string/) | [solution](Solutions/sol_007.md) |
+|  8   | Check If It Is a Straight Line | Leetcode | [Link](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [solution](Solutions/sol_008.md) |
 
 
 ## Day 3 - Vector ([PDF](/PDF_Notes/Day-3.pdf))
@@ -94,26 +93,26 @@
 			- pop_back()
 			- insert()
 			- swap()
-- STL pair
 - Implement template Pair class
+- STL pair
 
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
-|  9   | Value equal to index value | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1) | [solution](Solutions/sol_9.md) |
-|  10  | Sort an array of 0s, 1s and 2s | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1#) | [solution](Solutions/sol_10.md) |
-|  11  | Cyclically rotate an array by one | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1/) | [solution](Solutions/sol_11.md) |
-|  12  | Palindromic Array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/palindromic-array-1587115620/1) | [solution](Solutions/sol_12.md) |
+|  9   | Value equal to index value | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1) | [solution](Solutions/sol_009.md) |
+|  10  | Sort an array of 0s, 1s and 2s | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1#) | [solution](Solutions/sol_010.md) |
+|  11  | Cyclically rotate an array by one | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1/) | [solution](Solutions/sol_011.md) |
+|  12  | Palindromic Array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/palindromic-array-1587115620/1) | [solution](Solutions/sol_012.md) |
 
 
 ## Day 4 - Array and String 
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
-|  13  | Move all negative elements to end | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1) | [solution](Solutions/sol_13.md) |
-|  14   | Count Items Matching a Rule | LeetCode | [Link](https://leetcode.com/problems/count-items-matching-a-rule/) | [solution](Solutions/sol_14.md) |
-|  15   | Kth Missing Positive Number | LeetCode | [Link](https://leetcode.com/problems/kth-missing-positive-number/) | [solution](Solutions/sol_15.md) |
-|  16   | Plus One | LeetCode | [Link](https://leetcode.com/problems/plus-one/) | [solution](Solutions/sol_16.md) |
+|  13  | Move all negative elements to end | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1) | [solution](Solutions/sol_013.md) |
+|  14   | Count Items Matching a Rule | LeetCode | [Link](https://leetcode.com/problems/count-items-matching-a-rule/) | [solution](Solutions/sol_014.md) |
+|  15   | Kth Missing Positive Number | LeetCode | [Link](https://leetcode.com/problems/kth-missing-positive-number/) | [solution](Solutions/sol_015.md) |
+|  16   | Plus One | LeetCode | [Link](https://leetcode.com/problems/plus-one/) | [solution](Solutions/sol_016.md) |
 <!-- 
 
 ## Day 5 - Array and String 

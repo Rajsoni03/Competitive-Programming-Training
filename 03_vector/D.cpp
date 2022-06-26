@@ -1,3 +1,5 @@
+// initialize size and capacity
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -6,7 +8,7 @@ int main(){
 	vector<int> v(5, 0);
 
 	cout << v.size() << endl;
-	cout << v.capacity() << endl;
+	cout << v.capacity() << endl << endl;
 
 	v.push_back(2);
 

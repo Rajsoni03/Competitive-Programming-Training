@@ -1,3 +1,6 @@
+// size and capacity
+// if vactor is full then capacity increase by (2 * size)
+
 #include <iostream>
 #include <vector>
 using namespace std;

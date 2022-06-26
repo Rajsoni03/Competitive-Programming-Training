@@ -1,3 +1,6 @@
+// size()
+// operator[]
+
 #include <iostream>
 #include <vector>
 using namespace std;

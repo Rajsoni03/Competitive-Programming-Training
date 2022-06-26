@@ -1,8 +1,12 @@
+// add element to vector - optimized
+
 #include <iostream>
 #include <vector>
 using namespace std;
 
 /*
+Time = O(N)
+
 n = 6
 arr = [1, 2, 3, 4, 5, 6]
 */
