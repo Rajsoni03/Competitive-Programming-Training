@@ -58,7 +58,7 @@
 		- `swap()`
 		- `min()` & `max()`
 		- `min_element()` & `max_element()`
-		- `minmax()` 
+		- `minmax()` & `minmax_element()` 
 		- `sort()`
 		- `find()`
 		- `search()`
@@ -93,9 +93,6 @@
 			- pop_back()
 			- insert()
 			- swap()
-- Implement template Pair class
-- STL pair
-
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
@@ -105,7 +102,10 @@
 |  12  | Palindromic Array | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/palindromic-array-1587115620/1) | [solution](Solutions/sol_012.md) |
 
 
-## Day 4 - Array and String 
+## Day 4 - Pair
+
+- Implement template Pair class
+- STL pair
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
@@ -113,6 +113,26 @@
 |  14   | Count Items Matching a Rule | LeetCode | [Link](https://leetcode.com/problems/count-items-matching-a-rule/) | [solution](Solutions/sol_014.md) |
 |  15   | Kth Missing Positive Number | LeetCode | [Link](https://leetcode.com/problems/kth-missing-positive-number/) | [solution](Solutions/sol_015.md) |
 |  16   | Plus One | LeetCode | [Link](https://leetcode.com/problems/plus-one/) | [solution](Solutions/sol_016.md) |
+
+
+## Day 5 - String & Numbers ([PDF](/PDF_Notes/Day-5.pdf))
+
+- Reverse string
+- Reverse integer number
+- String palindrome
+- Integer palindrome
+- Fibonacci series with recursion
+- Fibonacci series with loop
+
+
+|  #   | Problem Name  | Platfrom | Practice | Solution |
+| :--: | :------------ |:--------:| :-------:| --------:|
+|  17   | Number of Good Pairs | LeetCode | [Link](https://leetcode.com/problems/number-of-good-pairs/) | [solution](Solutions/sol_17.md) |
+|  18   | How Many Numbers Are Smaller Than the Current Number | LeetCode | [Link](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | [solution](Solutions/sol_18.md) |
+|  19   | Palindrome Number | LeetCode | [Link](https://leetcode.com/problems/palindrome-number/) | [solution](Solutions/sol_19.md) |
+|  20   | Fibonacci Number | LeetCode | [Link](https://leetcode.com/problems/fibonacci-number/) | [solution](Solutions/sol_20.md) |
+
+
 <!-- 
 
 ## Day 5 - Array and String 
