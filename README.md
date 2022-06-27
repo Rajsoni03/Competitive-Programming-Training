@@ -127,11 +127,11 @@
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
-|  17   | Number of Good Pairs | LeetCode | [Link](https://leetcode.com/problems/number-of-good-pairs/) | [solution](Solutions/sol_17.md) |
-|  18   | How Many Numbers Are Smaller Than the Current Number | LeetCode | [Link](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | [solution](Solutions/sol_18.md) |
-|  19   | Palindrome Number | LeetCode | [Link](https://leetcode.com/problems/palindrome-number/) | [solution](Solutions/sol_19.md) |
-|  20   | Fibonacci Number | LeetCode | [Link](https://leetcode.com/problems/fibonacci-number/) | [solution](Solutions/sol_20.md) |
-|  21   | Reverse Integer | LeetCode | [Link](https://leetcode.com/problems/reverse-integer/) | [solution](Solutions/sol_21.md) |
+|  17   | Number of Good Pairs | LeetCode | [Link](https://leetcode.com/problems/number-of-good-pairs/) | [solution](Solutions/sol_017.md) |
+|  18   | How Many Numbers Are Smaller Than the Current Number | LeetCode | [Link](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | [solution](Solutions/sol_018.md) |
+|  19   | Palindrome Number | LeetCode | [Link](https://leetcode.com/problems/palindrome-number/) | [solution](Solutions/sol_019.md) |
+|  20   | Fibonacci Number | LeetCode | [Link](https://leetcode.com/problems/fibonacci-number/) | [solution](Solutions/sol_020.md) |
+|  21   | Reverse Integer | LeetCode | [Link](https://leetcode.com/problems/reverse-integer/) | [solution](Solutions/sol_021.md) |
 
 
 <!-- 
