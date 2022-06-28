@@ -155,11 +155,13 @@
 |  24  | Minimum Bit Flips to Convert Number | LeetCode | [Link](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/) | [solution](Solutions/sol_024.md) |
 |  25  | Hamming Distance | LeetCode | [Link](https://leetcode.com/problems/hamming-distance/) | [solution](Solutions/sol_025.md) |
 |  26  | Complement of Base 10 Integer | LeetCode | [Link](https://leetcode.com/problems/complement-of-base-10-integer/) | [solution](Solutions/sol_026.md) |
-|  27  | Binary Gap | LeetCode | [Link](https://leetcode.com/problems/binary-gap/submissions/) | [solution](Solutions/sol_027.md) |
+|  27  | Binary Gap | LeetCode | [Link](https://leetcode.com/problems/binary-gap/) | [solution](Solutions/sol_027.md) |
+|  28  | Reverse Bits | LeetCode | [Link](https://leetcode.com/problems/reverse-bits/) | [solution](Solutions/sol_028.md) |
 
 
 
 <!-- 
+
 
 ## Bit Manipulation
 
