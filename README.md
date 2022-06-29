@@ -158,8 +158,6 @@
 |  27  | Binary Gap | LeetCode | [Link](https://leetcode.com/problems/binary-gap/) | [solution](Solutions/sol_027.md) |
 |  28  | Reverse Bits | LeetCode | [Link](https://leetcode.com/problems/reverse-bits/) | [solution](Solutions/sol_028.md) |
 
-
-
 <!-- 
 
 
