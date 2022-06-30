@@ -158,6 +158,25 @@
 |  27  | Binary Gap | LeetCode | [Link](https://leetcode.com/problems/binary-gap/) | [solution](Solutions/sol_027.md) |
 |  28  | Reverse Bits | LeetCode | [Link](https://leetcode.com/problems/reverse-bits/) | [solution](Solutions/sol_028.md) |
 
+## Day 7 - Bits Manipulation ([PDF](/PDF_Notes/Day-7.pdf))
+
+- `^` XOR Operator
+	- data encryption
+	- data decryption
+- find missing number from 1 - n range
+- find non repeating number
+- add 2 numbers without arithmetic operators
+
+|  #   | Problem Name  | Platfrom | Practice | Solution |
+| :--: | :------------ |:--------:| :-------:| --------:|
+|  29  | Missing Number | LeetCode | [Link](https://leetcode.com/problems/missing-number/) | [solution](Solutions/sol_029.md) |
+|  30  | Find the Duplicate Number | LeetCode | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | [solution](Solutions/sol_030.md) |
+|  31  | XOR Operation in an Array | LeetCode | [Link](https://leetcode.com/problems/xor-operation-in-an-array/) | [solution](Solutions/sol_031.md) |
+|  32  | Decode XORed Array | LeetCode | [Link](https://leetcode.com/problems/decode-xored-array/) | [solution](Solutions/sol_032.md) |
+|  33  | Decode XORed Array | LeetCode | [Link](https://leetcode.com/problems/decode-xored-array/) | [solution](Solutions/sol_033.md) |
+|  34  | Single Number | LeetCode | [Link](https://leetcode.com/problems/single-number/) | [solution](Solutions/sol_034.md) |
+|  35  | Counting Bits | LeetCode | [Link](https://leetcode.com/problems/counting-bits/) | [solution](Solutions/sol_035.md) |
+
 <!-- 
 
 
@@ -185,8 +204,6 @@
 
 | Power Set	 | [Link](https://www.geeksforgeeks.org/power-set/) | [solution](code.cpp) | [Code](https://practice.geeksforgeeks.org/problems/power-set4302/1) |
  -->
-
-
 
 
 <!-- 
