@@ -176,7 +176,7 @@
 |  32  | Decode XORed Array | [LeetCode](https://leetcode.com/problems/decode-xored-array/) | [solution](Solutions/sol_032.md) |
 |  33  | Single Number | [LeetCode](https://leetcode.com/problems/single-number/) | [solution](Solutions/sol_033.md) |
 |  34  | Counting Bits | [LeetCode](https://leetcode.com/problems/counting-bits/) | [solution](Solutions/sol_034.md) |
-|  35  | Count total set bits |[GeeksForGeeks]https://practice.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1) | [solution](Solutions/sol_035.md) |
+|  35  | Count total set bits | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1) | [solution](Solutions/sol_035.md) |
 |  36  | Power of Two | [LeetCode](https://leetcode.com/problems/counting-bits/) / [GeeksForGeeks](https://www.geeksforgeeks.org/program-to-find-whether-a-given-number-is-power-of-2/) | [solution](Solutions/sol_036.md) |
 |  37  | Bit Difference | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1#) | [solution](Solutions/sol_037.md) |
 
