@@ -150,7 +150,7 @@
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
-|  22  | Number of 1 Bits | LeetCode | [Link](https://leetcode.com/problems/number-of-1-bits/) | [solution](Solutions/sol_022.md) |
+|  22  | Number of 1 Bits | LeetCode/GeeksForGeeks | [Leetcode](https://leetcode.com/problems/number-of-1-bits/) [GFG](https://practice.geeksforgeeks.org/problems/set-bits0143/1) | [solution](Solutions/sol_022.md) |
 |  23  | Number of Steps to Reduce a Number to Zero | LeetCode | [Link](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [solution](Solutions/sol_023.md) |
 |  24  | Minimum Bit Flips to Convert Number | LeetCode | [Link](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/) | [solution](Solutions/sol_024.md) |
 |  25  | Hamming Distance | LeetCode | [Link](https://leetcode.com/problems/hamming-distance/) | [solution](Solutions/sol_025.md) |
@@ -177,6 +177,7 @@
 |  34  | Counting Bits | LeetCode | [Link](https://leetcode.com/problems/counting-bits/) | [solution](Solutions/sol_034.md) |
 
 <!--
+
 ## Importent Bit Manipulation Problems On GFG
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
