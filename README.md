@@ -181,7 +181,40 @@
 |  37  | Bit Difference | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1#) | [solution](Solutions/sol_037.md) |
 
 
+## Day 8 - Bit Manipulation ([PDF](/PDF_Notes/Day-8.pdf))
+
+- `(num & 1) == 0` - Check if the integer is even
+- `x = x & (1<<n)` - Get n-th bit
+- `x = x | (1<<n)` - Set n-th bit
+- `x = x & ~(1<<n)` - Unset n-th bit
+- `x = x ^ (1<<n)` - Toggle n-th bit
+- `y = x & (-x)` or `y = x & !(x-1)` - Get the rightmost 1's bit
+- `y = x & (x-1)` - Unset rightmost 1's bit
+- Find the two non-repeating elements in an array of repeating elements
+- swap numbers without temp variable
+```cpp
+int a = 10;
+int b = 20;
+
+// method 1 : using arithmatic operator
+a = a + b;
+b = a - b;
+a = a - b;
+
+// method 2 : using bitwise operator
+a = a ^ b;
+b = a ^ b;
+a = a ^ b;
+```
+
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  38  | Find the two non-repeating elements in an array of repeating elements | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1) | [solution](Solutions/sol_038.md) |
+
 <!--
+|  39  | Find the two non-repeating elements in an array of repeating elements | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1) | [solution](Solutions/sol_039.md) |
+
+
 ## Importent Bit Manipulation Problems On GFG
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
