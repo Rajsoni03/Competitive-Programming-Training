@@ -102,7 +102,7 @@
 |  12  | Palindromic Array | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/palindromic-array-1587115620/1) | [solution](Solutions/sol_012.md) |
 
 
-## Day 4 - Pair
+## Day 4 - Pair ([PDF](/PDF_Notes/Day-4.pdf))
 
 - Implement template Pair class
 - STL pair
@@ -211,27 +211,16 @@ a = a ^ b;
 | :--: | :------------ | :------: | --------:|
 |  38  | Find the two non-repeating elements in an array of repeating elements | [LeetCode](https://leetcode.com/problems/single-number-iii/) / [GeeksForGeeks](how-many-numbers-are-smaller-than-the-current-numbertps://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1) | [solution](Solutions/sol_038.md) |
 |  39  | Find position of set bit | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/find-position-of-set-bit3706/1) | [solution](Solutions/sol_039.md) |
+|  40  | Set all the bits in given range of a number | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/set-all-the-bits-in-given-range-of-a-number4538/1) | [solution](Solutions/sol_040.md) |
 
 <!--
-|  39  | Find the two non-repeating elements in an array of repeating elements | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1) | [solution](Solutions/sol_039.md) |
-
-
 ## Importent Bit Manipulation Problems On GFG
 
 |  #   | Problem Name  | Platfrom | Practice | Solution |
 | :--: | :------------ |:--------:| :-------:| --------:|
-|  20   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
-
-| Problem Name  |     Article     |      Solution    |   Practice
-| :------------ |:---------------:| :---------------:| -----------:|
-
-| Find the two non-repeating elements in an array of repeating elements | [Link](https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/) | [solution](code.cpp) | [Code](https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1) |
+|  20  | name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
 
 | Count total set bits in all numbers from 1 to n | [Link](https://www.geeksforgeeks.org/count-total-set-bits-in-all-numbers-from-1-to-n/) | [solution](code.cpp) | [Code](https://practice.geeksforgeeks.org/problems/count-total-set-bits/0) |
-
-| Find position of the only set bit	 | [Link](https://www.geeksforgeeks.org/find-position-of-the-only-set-bit/) | [solution](code.cpp) | [Code](https://practice.geeksforgeeks.org/problems/find-position-of-set-bit3706/1) |
-
-| Copy set bits in a range	 | [Link](https://www.geeksforgeeks.org/copy-set-bits-in-a-range/) | [solution](code.cpp) | [Code](https://practice.geeksforgeeks.org/problems/set-all-the-bits-in-given-range-of-a-number/0) |
 
 | Divide two integers without using multiplication, division and mod operator | [Link](https://www.geeksforgeeks.org/divide-two-integers-without-using-multiplication-division-mod-operator/) | [solution](code.cpp) | [Code](https://practice.geeksforgeeks.org/problems/division-without-using-multiplication-division-and-mod-operator/0/) |
 
