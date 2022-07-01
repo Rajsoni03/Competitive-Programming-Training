@@ -209,7 +209,8 @@ a = a ^ b;
 
 |  #   | Problem Name  | Practice | Solution |
 | :--: | :------------ | :------: | --------:|
-|  38  | Find the two non-repeating elements in an array of repeating elements | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1) | [solution](Solutions/sol_038.md) |
+|  38  | Find the two non-repeating elements in an array of repeating elements | [LeetCode](https://leetcode.com/problems/single-number-iii/) / [GeeksForGeeks](how-many-numbers-are-smaller-than-the-current-numbertps://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1) | [solution](Solutions/sol_038.md) |
+|  39  | Find position of set bit | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/find-position-of-set-bit3706/1) | [solution](Solutions/sol_039.md) |
 
 <!--
 |  39  | Find the two non-repeating elements in an array of repeating elements | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1) | [solution](Solutions/sol_039.md) |
