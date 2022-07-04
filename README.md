@@ -213,6 +213,55 @@ a = a ^ b;
 |  39  | Find position of set bit | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/find-position-of-set-bit3706/1) | [solution](Solutions/sol_039.md) |
 |  40  | Set all the bits in given range of a number | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/set-all-the-bits-in-given-range-of-a-number4538/1) | [solution](Solutions/sol_040.md) |
 
+
+
+## Day 9 - Bit Manipulation ([PDF](/PDF_Notes/Day-9.pdf))
+
+- Sorting
+	- Time Complexity
+	- Space Complexity
+	- Stablity
+	- Recursion / Iterative
+- Comparision Function
+- Swap Function
+- Selection Sort
+	- Time - O(N<sup>2</sup>)
+	- Space - O(1)
+	- Non Stable
+	- Iterative
+	- Inplace 
+
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  41  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_041.md) |
+|  42  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_042.md) |
+|  43  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_043.md) |
+|  44  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_044.md) |
+
+
+## Day 10 - Bit Manipulation ([PDF](/PDF_Notes/Day-10.pdf))
+
+- Bubble Sort
+	- Time - O(N<sup>2</sup>)
+	- Space - O(1)
+	- Stable
+	- Iterative
+	- Inplace 
+- Insertion Sort
+	- Time - O(N<sup>2</sup>)
+	- Space - O(1)
+	- Stable
+	- Iterative
+	- Inplace 
+
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  45  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_045.md) |
+|  46  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_046.md) |
+|  47  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_047.md) |
+|  48  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_048.md) |
+
+
 <!--
 ## Importent Bit Manipulation Problems On GFG
 
