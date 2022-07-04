@@ -230,6 +230,24 @@ a = a ^ b;
 	- Non Stable
 	- Iterative
 	- Inplace 
+```cpp
+void selectionSort(int arr[], int n){
+	int min_value, min_index;
+
+	for (int i = 0; i < n-1; i++){  
+		min_value = arr[i];
+		min_index = i;            
+
+		for (int j = i+1; j < n; j++){
+			if (arr[j] > min_value){
+				min_value = arr[j];
+				min_index = j;
+			}
+		}
+		swap(arr[i], arr[min_index]);
+	}
+}
+```
 
 |  #   | Problem Name  | Practice | Solution |
 | :--: | :------------ | :------: | --------:|
@@ -247,12 +265,41 @@ a = a ^ b;
 	- Stable
 	- Iterative
 	- Inplace 
+```cpp
+void bubbleSort(int arr[], int n){
+	for (int i = 0; i < n-1; i++){
+		bool flag = true;
+		for (int j = 0; j < n-1; j++){
+			if (arr[j] > arr[j+1]){
+				swap(arr[j],arr[j+1]);
+				flag = false;
+			}
+		}
+		if (flag) break;
+	}
+}
+```
 - Insertion Sort
 	- Time - O(N<sup>2</sup>)
 	- Space - O(1)
 	- Stable
 	- Iterative
 	- Inplace 
+```cpp
+void insertionSort(int arr[], int n){
+	int val, j;
+
+	for (int i = 1; i < n; i++){
+		val = arr[i];
+		j = i;
+		while(j>0 && arr[j-1] > val){
+			arr[j] = arr[j-1];
+			j--;
+		}
+		arr[j] = val;
+	}
+}
+```
 
 |  #   | Problem Name  | Practice | Solution |
 | :--: | :------------ | :------: | --------:|

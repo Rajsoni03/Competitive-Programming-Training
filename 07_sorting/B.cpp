@@ -7,7 +7,7 @@ void SWAP(int &a, int &b){
 	b = temp;
 }
 
-void SORT(int arr[], int n){
+void selectionSort(int arr[], int n){
 	int min_value;
 	int min_index;
 
@@ -30,7 +30,7 @@ int main(){
 	int n = 12;
 	int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
 
-	SORT(arr, n);
+	selectionSort(arr, n);
 
 	for (int i = 0; i < n; i++){
 		cout << arr[i] << " ";
