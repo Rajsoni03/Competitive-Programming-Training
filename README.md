@@ -215,7 +215,7 @@ a = a ^ b;
 
 
 
-## Day 9 - Bit Manipulation ([PDF](/PDF_Notes/Day-9.pdf))
+## Day 9 - Sorting Algorithms ([PDF](/PDF_Notes/Day-9.pdf))
 
 - Sorting
 	- Time Complexity
@@ -257,7 +257,7 @@ void selectionSort(int arr[], int n){
 |  44  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_044.md) |
 
 
-## Day 10 - Bit Manipulation ([PDF](/PDF_Notes/Day-10.pdf))
+## Day 10 - Sorting Algorithms ([PDF](/PDF_Notes/Day-10.pdf))
 
 - Bubble Sort
 	- Time - O(N<sup>2</sup>)
