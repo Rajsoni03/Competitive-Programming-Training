@@ -310,6 +310,7 @@ void insertionSort(int arr[], int n){
 
 ## Day 11 - Sorting Algorithms ([PDF](/PDF_Notes/Day-11.pdf))
 
+- Merge 2 Sorted Array
 - Merge Sort
 	- Time - O(N log N)
 	- Space - O(n)
