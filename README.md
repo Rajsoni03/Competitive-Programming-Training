@@ -308,6 +308,38 @@ void insertionSort(int arr[], int n){
 |  47  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_047.md) |
 |  48  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_048.md) |
 
+## Day 11 - Sorting Algorithms ([PDF](/PDF_Notes/Day-11.pdf))
+
+- Merge Sort
+	- Time - O(N log N)
+	- Space - O(n)
+	- Stable
+	- Recursive
+```cpp
+void mergeSort(int arr[], int n){
+	if (n < 2) return;
+	int mid = n/2;
+	int left[mid];
+	int right[n - mid];
+	for (int i = 0; i < mid; i++){
+		left[i] = arr[i];
+	}
+	for (int i = mid; i < n; i++){
+		right[i-mid] = arr[i];
+	}
+	mergeSort(left, mid);
+	mergeSort(right, n-mid);
+	margeArray(left, right, arr, mid, n-mid);
+}
+```
+
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  49  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_049.md) |
+|  50  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_050.md) |
+|  51  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_051.md) |
+|  52  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_052.md) |
+
 
 <!--
 ## Importent Bit Manipulation Problems On GFG
