@@ -316,6 +316,7 @@ void insertionSort(int arr[], int n){
 	- Space - O(n)
 	- Stable
 	- Recursive
+	- Divide and conquer
 ```cpp
 void mergeSort(int arr[], int n){
 	if (n < 2) return;
@@ -340,6 +341,43 @@ void mergeSort(int arr[], int n){
 |  50  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_050.md) |
 |  51  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_051.md) |
 |  52  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_052.md) |
+
+
+## Day 12 - Sorting Algorithms ([PDF](/PDF_Notes/Day-12.pdf))
+
+- Quick Sort
+	- Time - Avg. - O(N log N), Worse - O(N<sup>2</sup>)
+	- Space - O(n)
+	- Stable
+	- Recursive
+	- Divide and conquer
+	
+```cpp
+int partition(int arr[], int start, int end){
+	int pivot = arr[end];
+	int j = start;
+	for (int i = start; i < end; i++){
+		if (arr[i] <= pivot){
+			swap(arr[i], arr[j]);
+			j++;
+		}
+	}
+	swap(arr[end], arr[j]);
+	return j;
+}
+
+void quickSort(int arr[], int start, int end){
+	if (start >= end) return;               // base condition
+	int pivot = partition(arr, start, end);
+	quickSort(arr, start, pivot-1);         // left arr
+	quickSort(arr, pivot+1, end);           // right arr
+}
+```
+
+
+
+
+
 
 
 <!--
