@@ -27,11 +27,22 @@ void display(){
 }
 
 int size(){
-	// 
+	int len = 0;
+	Node *curr = head;
+	while(curr != nullptr){
+		curr = curr->next;
+		len++;
+	}
+	return len;
+
 }
 
 int last(){
-	// 
+	Node *curr = head;
+	while(curr->next != nullptr){
+		curr = curr->next;
+	}
+	return curr->data;
 }
 
 

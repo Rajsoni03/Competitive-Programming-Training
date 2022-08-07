@@ -249,14 +249,6 @@ void selectionSort(int arr[], int n){
 }
 ```
 
-|  #   | Problem Name  | Practice | Solution |
-| :--: | :------------ | :------: | --------:|
-|  41  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_041.md) |
-|  42  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_042.md) |
-|  43  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_043.md) |
-|  44  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_044.md) |
-
-
 ## Day 10 - Sorting Algorithms ([PDF](/PDF_Notes/Day-10.pdf))
 
 - Bubble Sort
@@ -301,13 +293,6 @@ void insertionSort(int arr[], int n){
 }
 ```
 
-|  #   | Problem Name  | Practice | Solution |
-| :--: | :------------ | :------: | --------:|
-|  45  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_045.md) |
-|  46  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_046.md) |
-|  47  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_047.md) |
-|  48  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_048.md) |
-
 ## Day 11 - Sorting Algorithms ([PDF](/PDF_Notes/Day-11.pdf))
 
 - Merge 2 Sorted Array
@@ -334,14 +319,6 @@ void mergeSort(int arr[], int n){
 	margeArray(left, right, arr, mid, n-mid);
 }
 ```
-
-|  #   | Problem Name  | Practice | Solution |
-| :--: | :------------ | :------: | --------:|
-|  49  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_049.md) |
-|  50  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_050.md) |
-|  51  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_051.md) |
-|  52  | name | [GeeksForGeeks](link) | [solution](Solutions/sol_052.md) |
-
 
 ## Day 12 - Sorting Algorithms ([PDF](/PDF_Notes/Day-12.pdf))
 
@@ -375,9 +352,50 @@ void quickSort(int arr[], int start, int end){
 ```
 
 
+## Day 13 - Linked List ([PDF](/PDF_Notes/Day-13.pdf))
+
+- Implement Singly LinkedList
+- Implement Node Class/Struct
+- Implement functions
+	- `push_front()`
+	- `push_back()`
+	- `display()`
+	- `size()`
+	- `last()`
+
+```cpp
+class Node{
+public:
+	int data;
+	Node* next;
+	Node(int data = 0, Node* next = nullptr) : data(data), next(next){}
+}
+```
+
+## Day 14 - Linked List ([PDF](/PDF_Notes/Day-14.pdf))
+
+- Implement Functions
+	- `pop_front()`
+	- `pop_back()`
+	- `search()`
+	- `at()`
+
+## Day 15 - Linked List ([PDF](/PDF_Notes/Day-15.pdf))
+
+- insert array element to list at back in O(N) time
+- find mid element 
+	- by using length (2 iteration)
+	- by using 2 (slow & fast) pointers (single iteration)
+- find ith element from last	
+	- by using length (2 iteration)
+	- by using 2 (slow & fast) pointers (single iteration)
 
 
-
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  41  | Middle of the Linked List | [LeetCode](https://leetcode.com/problems/middle-of-the-linked-list) | [solution](Solutions/sol_041.md) |
+|  42  | Convert Binary Number in a Linked List to Integer | [LeetCode](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer) | [solution](Solutions/sol_042.md) |
+|  43  | Delete Node in a Linked List | [LeetCode](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [solution](Solutions/sol_043.md) |
 
 
 <!--

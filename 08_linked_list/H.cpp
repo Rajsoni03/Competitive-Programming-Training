@@ -37,16 +37,27 @@ void pop_front(){
 	delete toDel;
 }
 
-
-void pop_back(){
+int search(int data){
 	Node *curr = head;
+	int index = 0;
+	while(curr){
+		if (data == curr->data){
+			return index;
+		}
+		curr = curr->next;
+		index++;
+	}
+	return -1;
+}
 
-	while(curr->next->next != nullptr){
+int at(int index){
+	Node *curr = head;
+	while(index--){
 		curr = curr->next;
 	}
-	delete curr->next;
-	curr->next = nullptr;
+	return curr->data;
 }
+
 
 void display(){
 	Node *curr = head;
@@ -67,14 +78,10 @@ int main(){
 	push_back(50);
 	push_front(60);
 	// 60 40 10 70 20 30 50
-	pop_front();
-	pop_front();
 
-	pop_back();
-	pop_back();
-	pop_back();
-	
 	display();
+
+	cout << at(4);
 
 	return 0;
 }

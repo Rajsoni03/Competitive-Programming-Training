@@ -37,15 +37,25 @@ void pop_front(){
 	delete toDel;
 }
 
-
-void pop_back(){
+int search(int data){
 	Node *curr = head;
+	int index = 0;
+	while(curr){
+		if (data == curr->data){
+			return index;
+		}
+		curr = curr->next;
+		index++;
+	}
+	return -1;
+}
 
-	while(curr->next->next != nullptr){
+int at(int index){
+	Node *curr = head;
+	while(index--){
 		curr = curr->next;
 	}
-	delete curr->next;
-	curr->next = nullptr;
+	return curr->data;
 }
 
 void display(){
@@ -58,23 +68,36 @@ void display(){
 	cout << "nullptr\n";
 }
 
+// void push_back(int arr[], int n){
+// 	Node *curr = head;
+// 	for (int i = 0; i < n; i++){
+// 		Node *n = new Node(arr[i]);
+// 		curr->next = n;
+// 		curr = curr->next;
+// 	}
+// }
+void push_back(int arr[], int n){
+	Node *curr = head;
+	for (int i = 0; i < n; i++){
+		curr = curr->next = new Node(arr[i]);
+	}
+}
+
+// Head->0->nullptr
+
 int main(){
-	push_back(70);
-	push_front(10);
-	push_back(20);
-	push_front(40);
-	push_back(30);
-	push_back(50);
-	push_front(60);
-	// 60 40 10 70 20 30 50
-	pop_front();
-	pop_front();
+	push_back(0);
+	// push_back(2);
+	// push_back(3);
+	// push_back(4);
+	// push_back(5);
+	// push_back(6);
+	// push_back(7);
+	// push_back(8);
 
-	pop_back();
-	pop_back();
-	pop_back();
-	
+	int arr[] = {1, 2, 3, 4, 5, 6, 7, 8};
+	push_back(arr, 8);
+
 	display();
-
 	return 0;
 }
