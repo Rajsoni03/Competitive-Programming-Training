@@ -390,12 +390,28 @@ public:
 	- by using length (2 iteration)
 	- by using 2 (slow & fast) pointers (single iteration)
 
-
 |  #   | Problem Name  | Practice | Solution |
 | :--: | :------------ | :------: | --------:|
 |  41  | Middle of the Linked List | [LeetCode](https://leetcode.com/problems/middle-of-the-linked-list) | [solution](Solutions/sol_041.md) |
 |  42  | Convert Binary Number in a Linked List to Integer | [LeetCode](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer) | [solution](Solutions/sol_042.md) |
 |  43  | Delete Node in a Linked List | [LeetCode](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [solution](Solutions/sol_043.md) |
+|  44  | Remove Duplicates from Sorted List | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [solution](Solutions/sol_044.md) |
+
+<!-- 
+## Day 16 - Linked List ([PDF](/PDF_Notes/Day-16.pdf))
+
+
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  45  | Remove Linked List Elements | [LeetCode](https://leetcode.com/problems/remove-linked-list-elements/) | [solution](Solutions/sol_045.md) |
+
+
+ -->
+
+
+
+
+
 
 
 <!--
