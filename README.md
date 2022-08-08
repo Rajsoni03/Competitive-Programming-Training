@@ -406,21 +406,23 @@ public:
 	- by 3 pointers 
 	- by push front same node
 
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  45  | Remove Linked List Elements | [LeetCode](https://leetcode.com/problems/remove-linked-list-elements/) | [solution](Solutions/sol_045.md) |
+|  46  | Reverse Linked List | [LeetCode](https://leetcode.com/problems/reverse-linked-list) | [solution](Solutions/sol_046.md) |
+|  47  | Reverse Linked List II | [LeetCode](https://leetcode.com/problems/reverse-linked-list-ii/) | [solution](Solutions/sol_047.md) |
+
+<!-- 
+|  47  | Linked List Cycle | [LeetCode](https://leetcode.com/problems/linked-list-cycle/) | [solution](Solutions/sol_047.md) |
+|  48  | Linked List Cycle II | [LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/) | [solution](Solutions/sol_048.md) |
+ -->
+<!-- 
 - Loop Detection 
 	- using map / set
 	- is loop found
 	- return loop node
 	- remove loop
-
-
-|  #   | Problem Name  | Practice | Solution |
-| :--: | :------------ | :------: | --------:|
-|  45  | Remove Linked List Elements | [LeetCode](https://leetcode.com/problems/remove-linked-list-elements/) | [solution](Solutions/sol_045.md) |
-|  46  | Reverse Linked List | [LeetCode](https://leetcode.com/problems/reverse-linked-list) | [solution](Solutions/sol_046.md) |
-|  47  | Linked List Cycle | [LeetCode](https://leetcode.com/problems/linked-list-cycle/) | [solution](Solutions/sol_047.md) |
-|  48  | Linked List Cycle II | [LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/) | [solution](Solutions/sol_048.md) |
-
-
+ -->
 
 
 
