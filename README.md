@@ -407,6 +407,7 @@ public:
 	- by push front same node
 
 - Loop Detection 
+	- using map / set
 	- is loop found
 	- return loop node
 	- remove loop
