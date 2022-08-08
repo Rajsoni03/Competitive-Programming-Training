@@ -397,16 +397,30 @@ public:
 |  43  | Delete Node in a Linked List | [LeetCode](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [solution](Solutions/sol_043.md) |
 |  44  | Remove Duplicates from Sorted List | [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [solution](Solutions/sol_044.md) |
 
-<!-- 
+
 ## Day 16 - Linked List ([PDF](/PDF_Notes/Day-16.pdf))
+
+- Reverse a Linked List
+	- by creating new list
+	- by stack
+	- by 3 pointers 
+	- by push front same node
+
+- Loop Detection 
+	- is loop found
+	- return loop node
+	- remove loop
 
 
 |  #   | Problem Name  | Practice | Solution |
 | :--: | :------------ | :------: | --------:|
 |  45  | Remove Linked List Elements | [LeetCode](https://leetcode.com/problems/remove-linked-list-elements/) | [solution](Solutions/sol_045.md) |
+|  46  | Reverse Linked List | [LeetCode](https://leetcode.com/problems/reverse-linked-list) | [solution](Solutions/sol_046.md) |
+|  47  | Linked List Cycle | [LeetCode](https://leetcode.com/problems/linked-list-cycle/) | [solution](Solutions/sol_047.md) |
+|  48  | Linked List Cycle II | [LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/) | [solution](Solutions/sol_048.md) |
 
 
- -->
+
 
 
 
