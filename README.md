@@ -412,17 +412,31 @@ public:
 |  46  | Reverse Linked List | [LeetCode](https://leetcode.com/problems/reverse-linked-list) | [solution](Solutions/sol_046.md) |
 |  47  | Reverse Linked List II | [LeetCode](https://leetcode.com/problems/reverse-linked-list-ii/) | [solution](Solutions/sol_047.md) |
 
-<!-- 
-|  47  | Linked List Cycle | [LeetCode](https://leetcode.com/problems/linked-list-cycle/) | [solution](Solutions/sol_047.md) |
-|  48  | Linked List Cycle II | [LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/) | [solution](Solutions/sol_048.md) |
- -->
-<!-- 
+
+## Day 17 - Linked List ([PDF](/PDF_Notes/Day-17.pdf))
+
 - Loop Detection 
 	- using map / set
-	- is loop found
-	- return loop node
-	- remove loop
- -->
+	- is cycle found
+	- return cycle node
+	- remove cycle
+
+|  48  | Linked List Cycle | [LeetCode](https://leetcode.com/problems/linked-list-cycle/) | [solution](Solutions/sol_048.md) |
+|  49  | Linked List Cycle II | [LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/) | [solution](Solutions/sol_049.md) |
+
+
+## Day 18 - Linked List ([PDF](/PDF_Notes/Day-18.pdf))
+
+- Check Palindrome in Linked List
+- Reorder Linked List
+
+|  50  | Palindrome Linked List | [LeetCode](https://leetcode.com/problems/palindrome-linked-list/) | [solution](Solutions/sol_050.md) |
+|  51  | Reorder List | [LeetCode](https://leetcode.com/problems/reorder-list/) | [solution](Solutions/sol_051.md) |
+
+
+
+
+
 
 
 

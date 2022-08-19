@@ -23,19 +23,23 @@ void display(){
 	cout << "nullptr\n";
 }
 
-bool isCycle(){
-	// time  O(n)
-	// space O(n)	
-	Node *curr = head;
-	set<Node*> s;
-	while(curr){
-		if(s.count(curr) == 1){
-			return true;
+Node* RemoveCycle(){
+	Node *fast = head;
+	Node *slow = head;
+	do{
+		fast = fast->next->next;
+		slow = slow->next;
+		if (fast == slow){
+			Node *curr = head;
+			while(curr->next != slow->next){
+				curr = curr->next;
+				slow = slow->next;
+			}
+			slow->next = nullptr;
+			return curr;
 		}
-		s.insert(curr);
-		curr = curr->next;
-	}
-	return false;
+	} while(fast && fast->next);
+	return nullptr;
 }
 
 int main(){
@@ -50,7 +54,7 @@ int main(){
 	
 	last->next = cPoint;
 
-	// cout << isCycle() << endl;
+	cout << RemoveCycle()->data << endl;
 	display();
 	return 0;
 }

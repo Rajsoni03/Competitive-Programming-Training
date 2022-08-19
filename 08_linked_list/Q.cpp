@@ -23,18 +23,16 @@ void display(){
 	cout << "nullptr\n";
 }
 
-bool isCycle(){
-	// time  O(n)
-	// space O(n)	
-	Node *curr = head;
-	set<Node*> s;
-	while(curr){
-		if(s.count(curr) == 1){
+bool isCycleOptimized(){
+	Node *fast = head;
+	Node *slow = head;
+	do{
+		fast = fast->next->next;
+		slow = slow->next;
+		if (fast == slow){
 			return true;
 		}
-		s.insert(curr);
-		curr = curr->next;
-	}
+	}while(fast && fast->next);
 	return false;
 }
 
@@ -50,7 +48,7 @@ int main(){
 	
 	last->next = cPoint;
 
-	// cout << isCycle() << endl;
-	display();
+	cout << isCycleOptimized() << endl;
+	// display();
 	return 0;
 }
