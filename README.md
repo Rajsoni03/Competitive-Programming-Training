@@ -418,20 +418,60 @@ public:
 - Loop Detection 
 	- using map / set
 	- is cycle found
-	- return cycle node
-	- remove cycle
 
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
 |  48  | Linked List Cycle | [LeetCode](https://leetcode.com/problems/linked-list-cycle/) | [solution](Solutions/sol_048.md) |
-|  49  | Linked List Cycle II | [LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/) | [solution](Solutions/sol_049.md) |
 
 
 ## Day 18 - Linked List ([PDF](/PDF_Notes/Day-18.pdf))
 
+- Loop Detection 
+	- return cycle node
+	- remove cycle
+
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  49  | Linked List Cycle II | [LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/) | [solution](Solutions/sol_049.md) |
+
+
+## Day 19 - Linked List ([PDF](/PDF_Notes/Day-18.pdf))
+
 - Check Palindrome in Linked List
 - Reorder Linked List
 
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
 |  50  | Palindrome Linked List | [LeetCode](https://leetcode.com/problems/palindrome-linked-list/) | [solution](Solutions/sol_050.md) |
 |  51  | Reorder List | [LeetCode](https://leetcode.com/problems/reorder-list/) | [solution](Solutions/sol_051.md) |
+
+
+## Day 20 - Linked List ([PDF](/PDF_Notes/Day-20.pdf))
+
+- Merge Two Sorted Lists
+- Add Two Numbers
+
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  52  | Merge Two Sorted Lists | [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists/) | [solution](Solutions/sol_052.md) |
+|  53  | Add Two Numbers | [LeetCode](https://leetcode.com/problems/add-two-numbers/) | [solution](Solutions/sol_053.md) |
+
+
+## Day 21 - Stack ([PDF](/PDF_Notes/Day-21.pdf))
+
+- Stack Interface
+	- `push()`
+	- `pop()`
+	- `top()`
+	- `size()`
+	- `empty()`
+- Stack Implementation
+	- array based stack
+	- linked list based stack
+
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  54  | Valid Parentheses | [LeetCode](https://leetcode.com/problems/valid-parentheses/) | [solution](Solutions/sol_054.md) |
 
 
 
