@@ -1,65 +1,44 @@
 #include <iostream>
 using namespace std;
 
-class Stack{
-	private:
-		int *arr;
-		int curr;
-		int capacity;
+class stack{
+	int *arr;
+	int index;
 	public:
-		Stack(int capacity){
-			this->capacity = capacity;
+		stack(int capacity){
+			index = -1;
 			arr = new int[capacity];
-			curr = -1;
-		}		
+		}
 		void push(int ele){
-			if (curr+1 < capacity){
-				curr++;
-				arr[curr] = ele;
-			}
-			else{
-				cout << "Stack OverFlow" << endl;
-			}
+			index++;
+			arr[index] = ele;
 		}
 		void pop(){
-			if (curr >= 0){
-				curr--;
-			}
-			else{
-				cout << "Stack is Empty" << endl;
-			}
+			index--;
 		}
 		int top(){
-			if (!empty()){
-				return arr[curr];
+			if (this->empty()){
+				cout << "stack is empty" << endl;
+				return -1;
 			}
-			else{
-				cout << "Stack is Empty" << endl;
-			}
-			return -1;
-		}
-		bool empty(){	
-			return curr == -1;
+			return arr[index];
 		}
 		int size(){
-			return curr+1;
+			return index + 1;
+		}
+		bool empty(){
+			return index == -1;
 		}
 };
 
-
 int main(){
-	Stack s(5);
-
+	stack s(5);
 	s.push(10);
 	s.push(20);
 	s.push(30);
 	s.push(40);
 	s.push(50);
-
-	while(s.empty() == false){
-		cout << s.top() << endl;
-		s.pop();
-	}
-
+	s.push(60); // wrong operation
+	cout << s.top() << endl;
 	return 0;
 }

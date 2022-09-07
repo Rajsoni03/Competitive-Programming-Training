@@ -1,66 +1,50 @@
 #include <iostream>
 using namespace std;
 
-template <typename T>
-class Stack{
-	private:
-		T *arr;
-		int curr;
-		int capacity;
+class stack{
+	int *arr;
+	int index;
+	int capacity;
 	public:
-		Stack(int capacity){
+		stack(int capacity){
+			index = -1;
 			this->capacity = capacity;
-			arr = new T[capacity];
-			curr = -1;
-		}		
-		void push(T ele){
-			if (curr+1 < capacity){
-				curr++;
-				arr[curr] = ele;
+			arr = new int[capacity];
+		}
+		void push(int ele){
+			if (index + 1 >= capacity){
+				cout << "StackOverflow" << endl;
+				return;
 			}
-			else{
-				cout << "Stack OverFlow" << endl;
-			}
+			index++;
+			arr[index] = ele;
 		}
 		void pop(){
-			if (curr >= 0){
-				curr--;
-			}
-			else{
-				cout << "Stack is Empty" << endl;
-			}
+			index--;
 		}
-		T top(){
-			if (!empty()){
-				return arr[curr];
+		int top(){
+			if (this->empty()){
+				cout << "stack is empty" << endl;
+				return -1;
 			}
-			else{
-				cout << "Stack is Empty" << endl;
-			}
-			return -1;
-		}
-		bool empty(){	
-			return curr == -1;
+			return arr[index];
 		}
 		int size(){
-			return curr+1;
+			return index + 1;
+		}
+		bool empty(){
+			return index == -1;
 		}
 };
 
-
 int main(){
-	Stack<char> s(1000);
-
-	s.push('A');
-	s.push('B');
-	s.push('C');
-	s.push('D');
-	s.push('E');
-
-	while(s.empty() == false){
-		cout << s.top() << endl;
-		s.pop();
-	}
-
+	stack s(5);
+	s.push(10);
+	s.push(20);
+	s.push(30);
+	s.push(40);
+	s.push(50);
+	s.push(60); // wrong operation
+	cout << s.top() << endl;
 	return 0;
 }

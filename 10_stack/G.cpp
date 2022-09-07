@@ -1,21 +1,24 @@
 #include <iostream>
 using namespace std;
 
+template <typename T>
 class stack{
-	int *arr;
+	T *arr;
 	int index;
 	int capacity;
-	bool isFull(){
-		return index+1 >= capacity;
-	}
 	public:
+		stack(){
+			index = -1;
+			this->capacity = 10;
+			arr = new T[capacity];
+		}
 		stack(int capacity){
 			index = -1;
 			this->capacity = capacity;
-			arr = new int[capacity];
+			arr = new T[capacity];
 		}
-		void push(int ele){
-			if (this->isFull()){
+		void push(T ele){
+			if (index+1 >= capacity){
 				cout << "StackOverflow" << endl;
 				return;
 			}
@@ -23,9 +26,13 @@ class stack{
 			arr[index] = ele;
 		}
 		void pop(){
+			if (this->empty()){
+				cout << "stack is empty" << endl;
+				return;
+			}
 			index--;
 		}
-		int top(){
+		T top(){
 			if (this->empty()){
 				cout << "stack is empty" << endl;
 				return -1;
@@ -41,13 +48,27 @@ class stack{
 };
 
 int main(){
-	stack s(5);
+	stack<int> s;
 	s.push(10);
 	s.push(20);
 	s.push(30);
 	s.push(40);
 	s.push(50);
-	s.push(60); // wrong operation
-	cout << s.top() << endl;
+
+	while(!s.empty()){
+		cout << s.top() << endl;
+		s.pop();
+	}
+
+	stack<char> s1;
+	s1.push('R');
+	s1.push('A');
+	s1.push('J');
+
+	while(!s1.empty()){
+		cout << s1.top();
+		s1.pop();
+	}
+
 	return 0;
 }

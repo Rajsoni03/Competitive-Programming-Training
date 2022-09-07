@@ -1,66 +1,43 @@
 #include <iostream>
 using namespace std;
 
-class Stack{
-	private:
-		int *arr;
-		int curr;
-		int capacity;
+class stack{
+	int *arr;
+	int index;
 	public:
-		Stack(int capacity){
-			this->capacity = capacity;
+		stack(int capacity){
+			index = -1;
 			arr = new int[capacity];
-			curr = -1;
-		}		
+		}
 		void push(int ele){
-			if (curr+1 < capacity){
-				curr++;
-				arr[curr] = ele;
-			}
-			else{
-				cout << "Stack OverFlow" << endl;
-			}
+			index++;
+			arr[index] = ele;
 		}
 		void pop(){
-			if (curr >= 0){
-				curr--;
-			}
-			else{
-				cout << "Stack is Empty" << endl;
-			}
+			index--;
 		}
 		int top(){
-			if (!empty()){
-				return arr[curr];
-			}
-			else{
-				cout << "Stack is Empty" << endl;
-			}
-			return -1;
-		}
-		bool empty(){	
-			return curr == -1;
+			return arr[index];
 		}
 		int size(){
-			return curr+1;
+			return index + 1;
+		}
+		bool empty(){
+			return index == -1;
 		}
 };
 
-
 int main(){
-	Stack s(5);
- 
+	stack s(5);
+	cout << "size : " << s.size() << endl;
 	s.push(10);
-
+	s.push(20);
 	cout << s.top() << endl;
-	cout << s.size() << endl;
-	cout << s.empty() << endl;
-
 	s.pop();
-
 	cout << s.top() << endl;
-	cout << s.size() << endl;
-	cout << s.empty() << endl;
-
+	cout << "size : " << s.size() << endl;
+	cout << "empty : " << s.empty() << endl;
+	s.pop();
+	cout << "empty : " << s.empty() << endl;
 	return 0;
 }
