@@ -468,10 +468,13 @@ public:
 - Stack Implementation
 	- array based stack
 	- linked list based stack
+- Template Implementation of stack
 
 |  #   | Problem Name  | Practice | Solution |
 | :--: | :------------ | :------: | --------:|
-|  54  | Valid Parentheses | [LeetCode](https://leetcode.com/problems/valid-parentheses/) | [solution](Solutions/sol_054.md) |
+|  54  | Implement Stack using Array | [Work@Tech](https://workat.tech/problem-solving/practice/implement-stack-array) | [solution](Solutions/sol_054.md) |
+|  55  | Implement Stack using Linked List | [Work@Tech](https://workat.tech/problem-solving/practice/implement-stack-linked-list) | [solution](Solutions/sol_055.md) |
+|  56  | Valid Parentheses | [LeetCode](https://leetcode.com/problems/valid-parentheses/), [Work@Tech](https://workat.tech/problem-solving/practice/balanced-parentheses) | [solution](Solutions/sol_056.md) |
 
 
 
