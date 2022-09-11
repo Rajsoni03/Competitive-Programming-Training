@@ -521,7 +521,7 @@ public:
 |  #   | Problem Name  | Practice | Solution |
 | :--: | :------------ | :------: | --------:|
 |  64  | Tower of Hanoi | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1) | [solution](Solutions/sol_064.md) |
-|  65  | Postfix Notation | [Work@Tech](https://workat.tech/problem-solving/practice/evaluate-reverse-polish-notationhttps://workat.tech/problem-solving/practice/evaluate-reverse-polish-notation) | [solution](Solutions/sol_065.md) |
+|  65  | Postfix Notation | [Work@Tech](https://workat.tech/problem-solving/practice/evaluate-reverse-polish-notation) | [solution](Solutions/sol_065.md) |
 
 
 <!-- 
