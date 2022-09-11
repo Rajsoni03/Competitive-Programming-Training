@@ -520,8 +520,8 @@ public:
 
 |  #   | Problem Name  | Practice | Solution |
 | :--: | :------------ | :------: | --------:|
-|  62  | Tower of Hanoi | [LeetCode](https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1) | [solution](Solutions/sol_062.md) |
-|  62  | Postfix Notation | [LeetCode](https://workat.tech/problem-solving/practice/evaluate-reverse-polish-notationhttps://workat.tech/problem-solving/practice/evaluate-reverse-polish-notation) | [solution](Solutions/sol_062.md) |
+|  62  | Tower of Hanoi | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1) | [solution](Solutions/sol_062.md) |
+|  62  | Postfix Notation | [Work@Tech](https://workat.tech/problem-solving/practice/evaluate-reverse-polish-notationhttps://workat.tech/problem-solving/practice/evaluate-reverse-polish-notation) | [solution](Solutions/sol_062.md) |
 
 
 <!-- 
