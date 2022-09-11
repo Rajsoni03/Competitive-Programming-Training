@@ -492,10 +492,10 @@ public:
 
 |  #   | Problem Name  | Practice | Solution |
 | :--: | :------------ | :------: | --------:|
-|  55  | Implement Queue using Array | [Work@Tech](https://workat.tech/problem-solving/practice/implement-queue-array) | [solution](Solutions/sol_055.md) |
-|  56  | Implement Queue using Linked List | [Work@Tech](https://workat.tech/problem-solving/practice/implement-queue-linked-list) | [solution](Solutions/sol_056.md) |
-|  57  | Implement Queue using Stacks | [LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/), [Work@Tech](https://workat.tech/problem-solving/practice/implement-queue-using-stacks) | [solution](Solutions/sol_057.md) |
-|  58  | Implement Stack using Queues | [LeetCode](https://leetcode.com/problems/implement-stack-using-queues/), [Work@Tech](https://workat.tech/problem-solving/practice/implement-stack-using-queues) | [solution](Solutions/sol_058.md) |
+|  57  | Implement Queue using Array | [Work@Tech](https://workat.tech/problem-solving/practice/implement-queue-array) | [solution](Solutions/sol_057.md) |
+|  58  | Implement Queue using Linked List | [Work@Tech](https://workat.tech/problem-solving/practice/implement-queue-linked-list) | [solution](Solutions/sol_058.md) |
+|  59  | Implement Queue using Stacks | [LeetCode](https://leetcode.com/problems/implement-queue-using-stacks/), [Work@Tech](https://workat.tech/problem-solving/practice/implement-queue-using-stacks) | [solution](Solutions/sol_059.md) |
+|  60  | Implement Stack using Queues | [LeetCode](https://leetcode.com/problems/implement-stack-using-queues/), [Work@Tech](https://workat.tech/problem-solving/practice/implement-stack-using-queues) | [solution](Solutions/sol_060.md) |
 
 
 ## Day 23 - Stack & Queue Problems ([PDF](/PDF_Notes/Day-23.pdf))
@@ -505,9 +505,9 @@ public:
 
 |  #   | Problem Name  | Practice | Solution |
 | :--: | :------------ | :------: | --------:|
-|  59  | Implement Min Stack | [LeetCode](https://leetcode.com/problems/min-stack/), [Work@Tech](https://workat.tech/problem-solving/practice/min-stack) | [solution](Solutions/sol_059.md) |
-|  60  | Next Greater Element | [Work@Tech](https://workat.tech/problem-solving/practice/next-greater-element) | [solution](Solutions/sol_060.md) |
-|  61  | Next Greater Element II | [LeetCode](https://leetcode.com/problems/next-greater-element-ii/) | [solution](Solutions/sol_061.md) |
+|  61  | Implement Min Stack | [LeetCode](https://leetcode.com/problems/min-stack/), [Work@Tech](https://workat.tech/problem-solving/practice/min-stack) | [solution](Solutions/sol_061.md) |
+|  62  | Next Greater Element | [Work@Tech](https://workat.tech/problem-solving/practice/next-greater-element) | [solution](Solutions/sol_062.md) |
+|  63  | Next Greater Element II | [LeetCode](https://leetcode.com/problems/next-greater-element-ii/) | [solution](Solutions/sol_063.md) |
 
 
 ## Day 24 - Stack & Queue Problems ([PDF](/PDF_Notes/Day-24.pdf))
@@ -520,8 +520,8 @@ public:
 
 |  #   | Problem Name  | Practice | Solution |
 | :--: | :------------ | :------: | --------:|
-|  62  | Tower of Hanoi | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1) | [solution](Solutions/sol_062.md) |
-|  62  | Postfix Notation | [Work@Tech](https://workat.tech/problem-solving/practice/evaluate-reverse-polish-notationhttps://workat.tech/problem-solving/practice/evaluate-reverse-polish-notation) | [solution](Solutions/sol_062.md) |
+|  64  | Tower of Hanoi | [GeeksForGeeks](https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1) | [solution](Solutions/sol_064.md) |
+|  65  | Postfix Notation | [Work@Tech](https://workat.tech/problem-solving/practice/evaluate-reverse-polish-notationhttps://workat.tech/problem-solving/practice/evaluate-reverse-polish-notation) | [solution](Solutions/sol_065.md) |
 
 
 <!-- 
