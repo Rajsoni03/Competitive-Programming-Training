@@ -2,7 +2,6 @@
 #include <vector>
 using namespace std;
 
-
 vector<int> getNextGreaterElement(vector<int> &A){
 	int n = A.size();
 	vector<int> ans(n);

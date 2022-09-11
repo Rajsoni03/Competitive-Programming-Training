@@ -10,7 +10,7 @@ class deque{
 		this->capacity = capacity;
 		arr = new int[capacity];
 		f = -1;
-		b = capacity;
+		b = -1;
 		len = 0;
 	}
 	void push_front(int ele){

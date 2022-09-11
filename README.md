@@ -510,6 +510,19 @@ public:
 |  61  | Next Greater Element II | [LeetCode](https://leetcode.com/problems/next-greater-element-ii/) | [solution](Solutions/sol_061.md) |
 
 
+## Day 24 - Stack & Queue Problems ([PDF](/PDF_Notes/Day-24.pdf))
+
+- Tower of Hanoi
+- Conversion
+	- Infix
+	- Prefix
+	- Postfix 
+
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  62  | Tower of Hanoi | [LeetCode](https://practice.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1) | [solution](Solutions/sol_062.md) |
+|  62  | Postfix Notation | [LeetCode](https://workat.tech/problem-solving/practice/evaluate-reverse-polish-notationhttps://workat.tech/problem-solving/practice/evaluate-reverse-polish-notation) | [solution](Solutions/sol_062.md) |
+
 
 <!-- 
 # Topics to cover
