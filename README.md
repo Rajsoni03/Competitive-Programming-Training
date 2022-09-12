@@ -529,6 +529,8 @@ public:
 - Infix to Postfix Conversion
 - Simplify Directory Path
 
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
 |  66  | Simplify Directory Path | [Work@Tech](https://workat.tech/problem-solving/practice/simplify-directory-path) | [solution](Solutions/sol_066.md) | 
 
 <!-- 
