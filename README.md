@@ -513,7 +513,7 @@ public:
 ## Day 24 - Stack & Queue Problems ([PDF](/PDF_Notes/Day-24.pdf))
 
 - Tower of Hanoi
-- Conversion
+- Expression resolution 
 	- Infix
 	- Prefix
 	- Postfix 
@@ -524,23 +524,19 @@ public:
 |  65  | Postfix Notation | [Work@Tech](https://workat.tech/problem-solving/practice/evaluate-reverse-polish-notation) | [solution](Solutions/sol_065.md) |
 
 
+## Day 25 - Stack & Queue Problems ([PDF](/PDF_Notes/Day-25.pdf))
+
+- Infix to Postfix Conversion
+- Simplify Directory Path
+
+|  66  | Simplify Directory Path | [Work@Tech](https://workat.tech/problem-solving/practice/simplify-directory-path) | [solution](Solutions/sol_066.md) | 
+
 <!-- 
 # Topics to cover
-
-- Deque
-- Min Stack
-- Next Greater Element
-- Tower of Hanoi
-- Conversion
-	- Infix
-	- Prefix
-	- Postfix 
-- Rotting Apples
 - Sliding Window Maximum
-- LRU Cache
-- LFU Cache
-
+- Rotting Apples
  -->
+
 
 
 
