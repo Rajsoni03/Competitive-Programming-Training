@@ -532,6 +532,7 @@ public:
 |  #   | Problem Name  | Practice | Solution |
 | :--: | :------------ | :------: | --------:|
 |  66  | Simplify Directory Path | [Work@Tech](https://workat.tech/problem-solving/practice/simplify-directory-path) | [solution](Solutions/sol_066.md) | 
+|  67  | Sliding Window Maximum | [Work@Tech](https://workat.tech/problem-solving/practice/sliding-window-maximum), [LeetCode](https://leetcode.com/problems/sliding-window-maximum/) | [solution](Solutions/sol_067.md) | 
 
 <!-- 
 # Topics to cover
@@ -539,24 +540,27 @@ public:
 - Rotting Apples
  -->
 
+## Day 26 - Binary Tree ([PDF](/PDF_Notes/Day-26.pdf))
+
+- Binary Tree
+- Structure of Binary Tree
+- Traversal
+	- Inorder
+	- Preorder
+	- Postorder
+- Number of Nodes in Tree
+- Max Height of Tree
+
+
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  68  | Binary Tree Inorder Traversal | [Work@Tech](https://workat.tech/problem-solving/practice/binary-tree-inorder-traversal) | [solution](Solutions/sol_068.md) | 
+|  69  | Binary Tree Preorder Traversal | [Work@Tech](https://workat.tech/problem-solving/practice/binary-tree-preorder-traversal) | [solution](Solutions/sol_069.md) | 
+|  70  | Binary Tree Postorder Traversal | [Work@Tech](https://workat.tech/problem-solving/practice/binary-tree-postorder-traversal) | [solution](Solutions/sol_070.md) | 
+|  71  | Maximum Depth of Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/maximum-depth-of-binary-tree) | [solution](Solutions/sol_069.md) | 
 
 
 
-<!--
-## Importent Bit Manipulation Problems On GFG
-
-|  #   | Problem Name  | Platfrom | Practice | Solution |
-| :--: | :------------ |:--------:| :-------:| --------:|
-|  20  | name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
-
-| Count total set bits in all numbers from 1 to n | [Link](https://www.geeksforgeeks.org/count-total-set-bits-in-all-numbers-from-1-to-n/) | [solution](code.cpp) | [Code](https://practice.geeksforgeeks.org/problems/count-total-set-bits/0) |
-
-| Divide two integers without using multiplication, division and mod operator | [Link](https://www.geeksforgeeks.org/divide-two-integers-without-using-multiplication-division-mod-operator/) | [solution](code.cpp) | [Code](https://practice.geeksforgeeks.org/problems/division-without-using-multiplication-division-and-mod-operator/0/) |
-
-| Calculate square of a number without using *, / and pow() | [Link](https://www.geeksforgeeks.org/calculate-square-of-a-number-without-using-and-pow/) | [solution](code.cpp) | Code |
-
-| Power Set	 | [Link](https://www.geeksforgeeks.org/power-set/) | [solution](code.cpp) | [Code](https://practice.geeksforgeeks.org/problems/power-set4302/1) |
- -->
 
 
 <!-- 
@@ -568,35 +572,3 @@ public:
 |  20   | Min Cost Climbing Stairs | LeetCode | [Link](https://leetcode.com/problems/min-cost-climbing-stairs/) | [solution](Solutions/sol_20.md) |
  
  -->
-
-
-<!-- 
-## Binary Search 
-
-|  1  | First and last occurrences of x | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1/) | [solution](Solutions/sol_.md) |
-|  2  | Number of occurrence | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/number-of-occurrence2259/1/) | [solution](Solutions/sol_.md) |
-
-|  20   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
-|  20   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
-|  20   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
-|  20   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
-|  20   | Name | GeeksForGeeks | [Link](link) | [solution](Solutions/sol_20.md) |
-
-
- -->
-<!-- 
-## Stack 
-
-|  #   | Problem Name  | Platfrom | Practice | Solution |
-| :--: | :------------ |:--------:| :-------:| --------:|
-|  _   | Implement stack using array  | GeeksForGeeks | [Link](https://practice.geeksforgeeks.org/problems/implement-stack-using-array/1/) | [solution](Solutions/sol_0.md) |
-
- -->
-
-<!-- 
-MAP
-
-- https://leetcode.com/problems/valid-anagram/
-
- -->
-
