@@ -557,7 +557,8 @@ public:
 |  68  | Binary Tree Inorder Traversal | [Work@Tech](https://workat.tech/problem-solving/practice/binary-tree-inorder-traversal) | [solution](Solutions/sol_068.md) | 
 |  69  | Binary Tree Preorder Traversal | [Work@Tech](https://workat.tech/problem-solving/practice/binary-tree-preorder-traversal) | [solution](Solutions/sol_069.md) | 
 |  70  | Binary Tree Postorder Traversal | [Work@Tech](https://workat.tech/problem-solving/practice/binary-tree-postorder-traversal) | [solution](Solutions/sol_070.md) | 
-|  71  | Maximum Depth of Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/maximum-depth-of-binary-tree) | [solution](Solutions/sol_069.md) | 
+|  71  | Maximum Depth of Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/maximum-depth-of-binary-tree) | [solution](Solutions/sol_071.md) | 
+|  72  | Sum of Left Leaves | [LeetCode](https://leetcode.com/problems/sum-of-left-leaves/) | [solution](Solutions/sol_072.md) | 
 
 
 
