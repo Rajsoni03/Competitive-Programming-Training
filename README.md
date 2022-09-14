@@ -558,10 +558,26 @@ public:
 |  69  | Binary Tree Preorder Traversal | [Work@Tech](https://workat.tech/problem-solving/practice/binary-tree-preorder-traversal) | [solution](Solutions/sol_069.md) | 
 |  70  | Binary Tree Postorder Traversal | [Work@Tech](https://workat.tech/problem-solving/practice/binary-tree-postorder-traversal) | [solution](Solutions/sol_070.md) | 
 |  71  | Maximum Depth of Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/maximum-depth-of-binary-tree) | [solution](Solutions/sol_071.md) | 
-|  72  | Sum of Left Leaves | [LeetCode](https://leetcode.com/problems/sum-of-left-leaves/) | [solution](Solutions/sol_072.md) | 
 
+## Day 27 - Binary Tree ([PDF](/PDF_Notes/Day-27.pdf))
 
+- Level Order Traversal
+- Iterative Traversal
+	- Inorder
+	- Preorder
+	- Postorder
+- Identical Binary Trees
+- Symmetric Binary Tree
+- Invert Binary Tree
+- Diameter of Binary Tree
 
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  72  | Level Order of Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/level-order-binary-tree) | [solution](Solutions/sol_072.md) | 
+|  73  | Identical Binary Trees | [Work@Tech](https://workat.tech/problem-solving/practice/identical-binary-trees) | [solution](Solutions/sol_073.md) |
+|  74  | Symmetric Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/symmetric-binary-tree) | [solution](Solutions/sol_074.md) |
+|  75  | Invert Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/invert-binary-tree) | [solution](Solutions/sol_075.md) |
+|  76  | Diameter of Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/diameter-of-binary-tree) | [solution](Solutions/sol_076.md) |
 
 
 <!-- 
