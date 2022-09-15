@@ -14,15 +14,22 @@ class Node{
 	}
 };
 
-void levelOrderTraversal(Node* root){ 
+void printLevel(Node* root){ 
 	queue<Node*> q;
 	q.push(root);
+	int level = 1;
 	while(!q.empty()){
-		Node* n = q.front();
-		q.pop();
-		cout << n->data << " ";
-		if (n->left)  q.push(n->left);
-		if (n->right) q.push(n->right);
+		int s = q.size();
+		cout << "[Level "<< level<< "] : " ;
+		for (int i = 0; i < s; i++){
+			Node* n = q.front();
+			q.pop();
+			cout << n->data << " ";
+			if (n->left)  q.push(n->left);
+			if (n->right) q.push(n->right);	
+		}
+		cout << endl;
+		level++;
 	}
 }
 
@@ -43,6 +50,6 @@ int main(){
 	root->right->right->left->left = new Node(10);
 	root->right->right->left->right = new Node(11);
 
-	levelOrderTraversal(root);
+	printLevel(root);
 	return 0;
 }

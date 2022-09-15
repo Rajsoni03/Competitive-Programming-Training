@@ -580,6 +580,18 @@ public:
 |  76  | Diameter of Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/diameter-of-binary-tree) | [solution](Solutions/sol_076.md) |
 
 
+## Day 28 - Binary Tree ([PDF](/PDF_Notes/Day-28.pdf))
+
+- Print each levels 
+- print i<sup>th</sup> level of tree
+- zig-zeg order traversal
+	- using stack and queue
+	- using deque
+
+
+
+
+
 <!-- 
 ## Dynamic Programming
 
