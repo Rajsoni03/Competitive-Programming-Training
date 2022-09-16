@@ -588,8 +588,21 @@ public:
 	- using stack and queue
 	- using deque
 
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  77  | Binary Tree Zigzag Level Order Traversal | [Work@Tech](https://workat.tech/problem-solving/practice/zigzag-level-order-traversal) | [solution](Solutions/sol_077.md) | 
 
 
+## Day 29 - Binary Tree ([PDF](/PDF_Notes/Day-29.pdf))
+
+- Left View of Tree
+- Right View of Tree
+- Build Tree [link](https://www.geeksforgeeks.org/construct-complete-binary-tree-given-array/)
+
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  78  | Left View of Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/left-view-binary-tree) | [solution](Solutions/sol_078.md) | 
+|  79  | Right View of Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/right-view-binary-tree) | [solution](Solutions/sol_079.md) | 
 
 
 <!-- 
