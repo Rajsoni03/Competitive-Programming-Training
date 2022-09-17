@@ -9,8 +9,8 @@ int main(){
 	m.insert({'Y', 400});
 	m.insert({'P', 30});
 	m.insert({'R', 156});
-	m.insert({'R', 350});
-	m.insert({'N', 249});
+	m['R'] = 350;
+	m['N'] = 249;
 
 
 	cout << m['R'] << endl;
