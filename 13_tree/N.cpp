@@ -39,7 +39,6 @@ void buildtree(Node* &root, vector<int> preorder, vector<int> inorder, unordered
 	cout << "R : "<<  i_begin + l_size + 1<< " " << p_end << " " << i_curr + 1 << " " << i_end << endl;
 	// p1+1, p1+1+table[val]-i1
 	// i1, table[val]
-
 	// p1+1+table[val]-i1, p2
 	// table[val]+1, i2
 

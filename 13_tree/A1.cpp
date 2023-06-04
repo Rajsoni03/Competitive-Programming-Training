@@ -1,7 +1,8 @@
 // Inorder Traversal 
-// Recursive Approach
+// Iterative Approach
 
 #include <iostream>
+#include <stack>
 using namespace std;
 
 class Node{
@@ -17,12 +18,16 @@ class Node{
 };
 
 void inorder(Node* root){
-	if (root == nullptr){
-		return;
+	stack<Node*> s;
+	while(root || !s.empty()){
+		while(root){
+			s.push(root);
+			root = root->left;
+		}
+		cout << s.top()->data << " ";
+		root = s.top()->right;
+		s.pop();
 	}
-	inorder(root->left);
-	cout << root->data << ' ';
-	inorder(root->right);
 }
 
 int main(){
@@ -30,8 +35,10 @@ int main(){
 	root->left  = new Node(2);
 	root->right = new Node(3);
 
-	root->right->left  = new Node(4);
-	root->right->right = new Node(5);
+	root->left->left  = new Node(4);
+	root->left->right  = new Node(5);
+	root->right->left  = new Node(6);
+	root->right->right = new Node(7);
 
 	cout << "Inorder : ";
 	inorder(root);

@@ -1,8 +1,4 @@
-// Left View of tree
-// Recursive Approach 
-
 #include <iostream>
-#include <queue>
 using namespace std;
 
 class Node{
@@ -16,15 +12,30 @@ class Node{
 		this->right = right;
 	}
 };
+/*
+			1          ->  1 + 4 = 5
+		 /     \ 
+		2		3      ->  1 + 3 = 4
+	   / \     / \
+	  4   5   6   7    ->  1 + 2 = 3
+	     / \     /
+	    8   9   10     ->  1 + 1 = 2
+	       /  
+	      11           ->  1
+*/
 
-void LeftView(Node* root, int level, vector<int> &v){ 
-	if (root==nullptr)
-		return;
-	if(level > v.size()){
-		v.push_back(root->data);
-	}
-	LeftView(root->left, level+1, v);
-	LeftView(root->right, level+1, v);
+int height(Node* root){ // O(n)
+	if (root == nullptr) return 0;
+	int leftHeight = height(root->left);
+	int rightHeight = height(root->right);
+	return 1 + max(leftHeight, rightHeight);
+}
+
+int diaOfTree(Node* root){
+	if (root == nullptr) return 0;
+	int prev = max(diaOfTree(root->left), diaOfTree(root->right));
+	int curr = height(root->left) + height(root->right);
+	return max(prev, curr);
 }
 
 int main(){
@@ -44,13 +55,8 @@ int main(){
 
 	root->left->right->right->left = new Node(11);
 
+	cout << diaOfTree(root);
 
-	vector<int> v;
-	
-	LeftView(root, 1, v);
 
-	for (int i = 0; i < v.size(); i++){
-		cout << v[i] << ' ';
-	}
 	return 0;
 }

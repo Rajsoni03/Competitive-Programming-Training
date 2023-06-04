@@ -605,6 +605,16 @@ public:
 |  79  | Right View of Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/right-view-binary-tree) | [solution](Solutions/sol_079.md) | 
 
 
+## Day 30 - Binary Tree ([PDF](/PDF_Notes/Day-30.pdf))
+
+- Top View of Tree
+- Bottom View of Tree
+
+|  #   | Problem Name  | Practice | Solution |
+| :--: | :------------ | :------: | --------:|
+|  80  | Top View of Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/top-view-binary-tree) | [solution](Solutions/sol_080.md) | 
+|  81  | Bottom View of Binary Tree | [Work@Tech](https://workat.tech/problem-solving/practice/bottom-view-binary-tree) | [solution](Solutions/sol_081.md) | 
+
 <!-- 
 ## Dynamic Programming
 

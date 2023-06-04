@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <queue>
+#include <map>
+#include <utility>
 using namespace std;
 
 class Node{
@@ -16,16 +18,33 @@ class Node{
 		this->right = right;
 	}
 };
+void topView(Node* root){
+	queue<pair<Node*, int>> q; // queue<Node*> q;
+	q.push({root, 0}); // q.push(root);
+	map<int, int> table;// col, value
+	Node* n;
+	int col;
+	while(!q.empty()){
+		n = q.front().first;  // curr node
+		col = q.front().second;
+		// logic
+		if (table.count(col) == 0){  // 1, 0
+			table[col] = n->data;
+		}
 
-void LeftView(Node* root, int level, vector<int> &v){ 
-	if (root==nullptr)
-		return;
-	if(level > v.size()){
-		v.push_back(root->data);
+		q.pop();
+		if (n->left) q.push({n->left, col-1});
+		if (n->right) q.push({n->right, col+1});
 	}
-	LeftView(root->left, level+1, v);
-	LeftView(root->right, level+1, v);
+
+	vector<int> v;
+	for (auto i : table){
+		cout << i.first << " - " << i.second << endl;
+		v.push_back(i.second);
+	}
+	// return v;
 }
+
 
 int main(){
 	Node* root  = new Node(1);
@@ -44,13 +63,6 @@ int main(){
 
 	root->left->right->right->left = new Node(11);
 
-
-	vector<int> v;
-	
-	LeftView(root, 1, v);
-
-	for (int i = 0; i < v.size(); i++){
-		cout << v[i] << ' ';
-	}
+	topView(root);
 	return 0;
 }

@@ -1,3 +1,5 @@
+// Number of nodes in tree
+
 #include <iostream>
 using namespace std;
 
